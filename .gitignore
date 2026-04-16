@@ -19,8 +19,12 @@ __pycache__/
 outputs/
 multirun/
 logs/
+checkpoints/
 *.pt
 *.ckpt
+
+# Datasets (regenerable)
+data/
 
 # Experiment trackers
 wandb/
