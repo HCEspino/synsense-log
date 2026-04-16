@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# uv / venv
+.venv/
+.env
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+
+# Experiment outputs
+outputs/
+multirun/
+logs/
+*.pt
+*.ckpt
+
+# Experiment trackers
+wandb/
+mlruns/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# DVS / samna event captures (can be multi-GB)
+recordings/
+*.aedat
+*.aedat4
